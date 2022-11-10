@@ -1,14 +1,14 @@
 import React from 'react'
 import {Routes, Route} from 'react-router-dom'
-import Contact from './routes/Contact';
+import Contact from './Contact';
 
-import About from './routes/About'
-import Home from './routes/Home'
-import Pricing from './routes/Pricing'
-import Training from './routes/Training';
-import German from './components/German'
-import French from './components/French';
-import English from './components/English';
+import About from './About'
+import Home from './Home'
+import Pricing from './Pricing'
+import Training from './Training';
+import German from './German'
+import French from './French';
+import English from './English';
 
 function App() {
   return (
