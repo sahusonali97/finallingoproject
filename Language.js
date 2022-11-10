@@ -1,8 +1,8 @@
 import React from 'react'
-import Footer from '../components/Footer'
-import LanGer from '../components/LanGer'
-import Navbar from '../components/Navbar'
-import Newvideo from '../components/Newvideo'
+import Footer from './Footer'
+
+import Navbar from './Navbar'
+import Newvideo from './Newvideo'
 
 
 

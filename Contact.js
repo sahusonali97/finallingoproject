@@ -1,8 +1,8 @@
 import React from 'react'
-import Footer from '../components/Footer'
-import HeroImage from '../components/HeroImage'
-import Navbar from '../components/Navbar'
-import Form from '../components/Form'
+import Footer from './Footer'
+import HeroImage from './HeroImage'
+import Navbar from './Navbar'
+import Form from './Form'
 
 const Contact = () => {
     return (

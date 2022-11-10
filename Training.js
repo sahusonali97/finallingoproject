@@ -1,29 +1,22 @@
 import React from 'react'
-import './TrainingStyles.css'
+import Footer from './Footer'
+import HeroImage from './HeroImage'
+import Navbar from './Navbar'
+import TrainingSection from './Training'
 
-import {Link} from 'react-router-dom'
 
-import Pod from './chi.jpeg'
-import Moon from './imp.jpeg'
+
+
 
 const Training = () => {
     return (
-        <div className='training'>
-            <div className='left'>
-                <h1>Why Study a foreign Language? </h1>
-                <p>Over the past decades our world has become more interdependent and new technologies have allowed us to work in close contact with people all over the world. As relationships with countries grow, so does the need to speak a foreign language. We have an enhanced need for enlightened methodology that deliver both culturally and linguistically prepared to function in today’s world..</p>
-                <Link to='/contact'><button className='btn'>Contact</button></Link>
-            </div>
-            <div className='right'>
-                <div className='img-container'>
-                    <div className='image-stack top'>
-                        <img src={Moon} className='img' alt='' />
-                    </div>
-                    <div className='image-stack bottom'>
-                        <img src={Pod} className='img' alt='' />
-                    </div>
-                </div>
-            </div>
+        <div>
+            <Navbar />
+            <HeroImage heading='TRAINING' text='Our virtual classes are real-time live streaming with native teachers who have years of experience teaching foreign languages. You will learn and practice foreign language at your convenience without stepping out from your home or office.
+' />
+            <TrainingSection />
+           
+            <Footer />
         </div>
     )
 }

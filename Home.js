@@ -1,12 +1,12 @@
 import React from 'react'
-import Footer from '../components/Footer'
-import Navbar from '../components/Navbar'
-import Video from '../components/Video'
-import Midbar from '../components/Midbar'
-import Section from '../components/Section'
-import Operation from '../components/Operation'
-import Boxmodel from '../components/Boxmodel'
-import Dual from '../components/Dual'
+import Footer from './Footer'
+import Navbar from './Navbar'
+import Video from './Video'
+import Midbar from './Midbar'
+import Section from './Section'
+import Operation from './Operation'
+import Boxmodel from './Boxmodel'
+import Dual from './Dual'
 
 
 
